@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.carousel-item img {
+    height: 800px; 
+    object-fit: cover; 
+}
+
+.gradient1 {
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+}
+
+.gradient2 {
+	background: linear-gradient(45deg, #ff9a9e, #fad0c4, #fbc2eb, #a18cd1);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+}
+
+.gradient3 {
+	background: linear-gradient(225deg, #b6fbff, #83a4d4, #8be4f5, #e0c3fc);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+}
+
+.gradient4 {
+	background: linear-gradient(315deg, #f6d365, #fda085, #f6d365, #f8e6d5);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+}
+
+.gradient5 {
+	background: linear-gradient(315deg, #ff9966, #ff5e62, #ff496a, #ff4181);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
